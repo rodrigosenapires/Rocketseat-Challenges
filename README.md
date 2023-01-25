@@ -17,11 +17,6 @@ Confira o <a href="https://app.rocketseat.com.br/discover/challenges">curso grat
 
 <br>
 
-<h2 align="center">Saiba mais sobre a Rocketseat</h2>
-<div align="center">
-  <a hrfe="https://drive.google.com/file/d/1f97xTglGmpLyte-8_E8kZho_gdQ2ldHZ/view?usp=share_link"><img href="https://drive.google.com/file/d/1f97xTglGmpLyte-8_E8kZho_gdQ2ldHZ/view?usp=share_link"></a>
-</div>
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
