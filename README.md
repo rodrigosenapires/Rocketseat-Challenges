@@ -19,7 +19,7 @@ Confira o <a href="https://app.rocketseat.com.br/discover/challenges">curso grat
 
 <h2 align="center">Saiba mais sobre a Rocketseat</h2>
 <p align="center">
-  <img alt="Logo da Rockeseat" hrfe="https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.rocketseat.com.br%2F&psig=AOvVaw3VlycF7bukxK5ozRPbs-vX&ust=1674763461656000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNDX5ZrC4_wCFQAAAAAdAAAAABAE">
+  <img alt="Logo da Rockeseat" hrfe="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8QVVLM96Po1g96w5Mt-gTWSt5tb6J2lqsaA&usqp=CAU">
 </p>
 
 ## 🚀 Tecnologias
