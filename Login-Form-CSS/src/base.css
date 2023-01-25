@@ -1,0 +1,18 @@
+@import url(style.css);
+
+:root {
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --bg: #191816;
+  --form-bg: #24221f;
+  --primary-color: #ffc632;
+  --main-text-font: font-family: 'Roboto', sans-serif;
+  --highlighted-text-font: font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    font-family: var(--main-text-font);
+}
+
+
