@@ -17,7 +17,7 @@ Confira o <a href="https://app.rocketseat.com.br/discover/challenges">curso grat
 
 <br>
 
-<h2>Clique na imagem para saber mais!</h2>
+<h2 align="center">Clique na imagem para saber mais!</h2>
 
 <br>
 
