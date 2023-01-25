@@ -1,9 +1,9 @@
 <h1 align="center"> Social Links </h1>
 
 <p align="center">
-Desafios gratuitos, promovidos pela Rocketseat para ensino de tecnologias WEB. <br/>
-<a href="https://app.rocketseat.com.br/discover/challenges">Consulte todos os desafios.</a>
-<a href="https://app.rocketseat.com.br/discover/challenges">Confira o curso gratuito, caso precise de ajuda nas resoluções dos desafios.</a>
+Desafios gratuitos, promovidos pela Rocketseat para ensino de tecnologias WEB. <br>
+Consulte todos os <a href="https://app.rocketseat.com.br/discover/challenges">desafios.</a><br>
+Confira o <a href="https://app.rocketseat.com.br/discover/challenges">curso gratuito</a>, caso precise de ajuda nas resoluções dos desafios.
 </p>
 
 <p align="center">
