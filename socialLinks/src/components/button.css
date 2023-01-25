@@ -1,0 +1,10 @@
+button {
+    padding: .8rem;
+    min-width:325px ;
+    border: 2px solid var(--purple);
+    border-radius: 4px;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: inherit;
+}
+

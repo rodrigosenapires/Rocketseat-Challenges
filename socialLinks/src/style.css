@@ -1,1 +1,25 @@
-@import url(base.css);
+@import url(components/button.css);
+
+body main img {
+    width: 150px;
+    height: 150px;
+    padding: .25rem;
+    border-radius: 50%;
+    border: 1px solid var(--purple);    
+}
+
+span {
+    margin-bottom: 1rem;
+}
+
+.socialLinks-container {
+    display: flex;
+    margin-top: 3.25rem;
+    gap: 1rem;
+}
+
+
+.socialLinks-container img {
+    width: 24px;
+    height: 24px;
+}
