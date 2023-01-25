@@ -19,7 +19,7 @@ Confira o <a href="https://app.rocketseat.com.br/discover/challenges">curso grat
 
 <h2 align="center">Saiba mais sobre a Rocketseat</h2>
 <div align="center">
-  <a hrfe="https://files.fm/u/g9mybjc8h"><img href="https://files.fm/u/g9mybjc8h"></a>
+  <a hrfe="https://files.fm/u/g9mybjc8h?ak=cb5bb"><img href="https://files.fm/u/g9mybjc8h?ak=cb5bb"></a>
 </div>
 
 ## 🚀 Tecnologias
