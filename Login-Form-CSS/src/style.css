@@ -1,0 +1,259 @@
+#loginContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+header {
+    grid-area: header;
+    display: flex;
+    gap: 4px;
+    padding: 40px 0 0 0;    
+}
+
+header img {
+    width: 115px;
+    height: 28px;
+}
+
+#login {
+    display: grid;
+    grid-template-areas:   
+    "loginTitle"
+    "loginInfo"
+    "email"
+    "password"
+    "rememberMe"
+    "button"
+    "register"
+    ; 
+}
+
+.loginTitle {
+    grid-area: loginTitle;
+    display: flex;
+    
+    gap: 5px;
+    align-items: center;
+}
+
+.loginTitle img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+.loginTitle h1 {
+    font-family: var(--highlighted-text-font);
+    color: var(--text-title);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.loginInfo {
+    grid-area: loginInfo;
+    font-family: var(--highlighted-text-font);    
+}
+
+.fieldContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    margin: 12px 0;
+    position: relative;
+    border: none;    
+}
+
+#emailField {
+    grid-area: email;
+}
+
+.label {
+    font-family: 'Poppins', sans-serif;
+}
+
+#email,
+#password {
+    width: 100%;
+    padding: .8rem .8rem .8rem 2.2rem;
+    background-color: transparent;
+    color: white;
+    border: 1px solid var(--primary-colo);
+    box-shadow: 0px 0px 0px 2px var(--box-shadow-color);
+    border-radius: 4px;
+}
+
+#passwordField #password {
+    box-shadow: 0px 0px 0px 2px;
+    border: 1px solid var(--text-base);
+}
+
+#email::placeholder,
+#password::placeholder {
+    color: var(--text-base);
+    
+}
+
+.emailImg,
+.lockImg {
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+#passwordField {
+    grid-area: password;
+}
+
+.eyeImg {
+    position: absolute;
+    right: 10px;
+    top: 40px;
+}
+
+#rememberMeContainer {
+    grid-area: rememberMe;
+}
+
+#checkbox {
+    position: absolute;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    justify-content: space-between;
+}
+
+.checkbox label {
+    font-family: var(--main-text-font);
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.checkbox a {
+    font-family: var(--text-title);
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--text-hover-color);
+}
+
+.checkmark {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    height: 23px;
+    width: 23px;
+    border: 1px solid var(--text-base);
+    background-color: var(--bg);
+    border-radius: 4px;
+}
+
+.checkbox label input:checked~.checkmark {
+    background-color: var(--primary-color);
+}
+
+.checkbox label:hover input~.checkmark {
+    border: 1px solid white;
+    
+    
+}
+
+.checkbox label .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.checkbox label input:checked ~ .checkmark:after {
+    display: block;
+}
+
+button {
+    grid-area: button;
+    text-transform: uppercase;
+    background: var(--primary-color);
+    border-radius: 8px;
+    border: none;
+    padding: 16px;
+    color: var(--text-hover-color);
+    font-family: var(--highlighted-text-font);
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--text-hover-color);    
+    color: var(--primary-color);
+}
+
+.register {
+    grid-area: register;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--highlighted-text-font);
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 14px;
+}
+
+.bgImgContainer {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {  
+
+    header {
+        padding: 40px 100px 0 100px;   
+    }
+
+    #loginContainer {
+        background-color: var(--form-bg);
+        opacity: .9;
+      }
+    
+      #login {    
+        padding: 0px 100px 30px 100px;
+      } 
+     
+}
+
+@media screen and (min-width: 1196px) { 
+    #loginContainer {
+        margin-left: 74px;
+    }
+
+    #login {       
+        background-color: var(--form-bg);  
+    }
+
+    .bgImgContainer {               
+        display: block;
+        width: 100%;
+        height: 100vh;
+        background: url(../public/images/side-image.jpg) no-repeat center/cover;
+    }
+
+}

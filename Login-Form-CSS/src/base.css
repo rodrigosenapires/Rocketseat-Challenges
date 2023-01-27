@@ -6,13 +6,51 @@
   --bg: #191816;
   --form-bg: #24221f;
   --primary-color: #ffc632;
-  --main-text-font: font-family: 'Roboto', sans-serif;
-  --highlighted-text-font: font-family: 'Poppins', sans-serif;
+  --box-shadow-color: #FFDE88;
+  --text-hover-color: #473404;
+  --main-text-font: 'Roboto', sans-serif;
+  --highlighted-text-font: 'Poppins', sans-serif;
 }
 
-body {
-    min-height: 100vh;
-    font-family: var(--main-text-font);
+body {  
+  grid-template-rows: 110px;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: var(--bg);
+  font-family: var(--main-text-font);
+  color: var(--text-base);
 }
 
+main { 
+  padding: 0 20px;
+  width: 100%;
+}
 
+@media screen and (min-width: 768px) {  
+  body {
+    background: url(../public/images/side-image-2x.jpg) no-repeat center/cover;
+  }
+  
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40%;
+    height: 100vh;
+    padding: 100px;  
+  }  
+}
+
+@media screen and (min-width: 1196px) {
+  body {
+    background: var(--bg);
+  }
+
+  main { 
+    padding: 0; 
+    display: flex;
+    justify-content: center;    
+    gap: 74px;
+    width: 100%;  
+  }  
+}

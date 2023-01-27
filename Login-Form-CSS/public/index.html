@@ -1,14 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Camp.in | Área de Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap">
     <link rel="stylesheet" href="../src/reset.css">
     <link rel="stylesheet" href="../src/base.css">
 </head>
+
 <body>
-    
+    <main>
+        <div id="loginContainer">
+            <header>
+                <img src="images/logo.svg"
+                    alt="Imagem da logo da empresa Camp.in. A logo da Camp.in é o desennho de uma barraca de camping.">
+            </header>
+
+            <section id="login">
+                <div class="loginTitle">
+                    <img src="images/log-in.svg" alt="Ícone de fazer login.">
+                    <h1>Faça seu login</h1>                    
+                </div>
+                <p class="loginInfo">Entre com suas informações de cadastro.</p>
+
+                <fieldset id="emailField" class="fieldContainer">
+                    <label class="label" for="email">E-mail</label>
+                    <input id="email" type="email" name="email" placeholder="Digite o seu e-mail" required>
+                    <img class="emailImg" src="images/mail.svg" alt="Ícone de enviar e-mail.">
+                </fieldset>
+
+                <fieldset id="passwordField" class="fieldContainer">
+                    <label class="label" for="password">Senha</label>
+                    <input id="password" type="password" name="password" placeholder="Digite a sua senha" required>
+                    <img class="lockImg" src="images/lock.svg" alt="Ícone de senha.">
+                    <img class="eyeImg" src="images/eye.svg" alt="Ícone para mostrar a senha">
+                </fieldset>
+
+                <fieldset id="rememberMeContainer" class="fieldContainer">
+                    <div class="checkbox">
+                        <label for="checkbox">
+                            <input id="checkbox" type="checkbox">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lembre-me
+                            <span class="checkmark"></span>
+                        </label>
+                        <a href="#">Esqueci a minha senha</a>
+                    </div>
+
+                </fieldset>
+
+                <button>entrar</button>
+                <a href="#" class="register">Não tem uma conta? Registre-se</a>
+            </section>
+        </div>
+        
+        <div class="bgImgContainer">
+
+        </div>
+    </main>
 </body>
+
 </html>
