@@ -9,7 +9,7 @@ Confira o <a href="https://app.rocketseat.com.br/discover/challenges">curso grat
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-indo além do desafio">Indo além do desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
+  <a href="#-desafio">Indo além do desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
@@ -40,7 +40,7 @@ O projeto é um formulário de login, responsivo. [Acesse as informações para 
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/SX8XFyC5fAY09ai8Oykz0T/DD-%2F-Login-Form---CSS/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
-## :chart_with_upwards_trend: Indo além do desafio
+## :chart_with_upwards_trend: Evoluindo
 
 - No desafio não temos o layout para a responsividade completa, temos somente para desktop e mobile, inseri para telas com tamanhos intermediários.
 - Inseri validações com JavaScript(Em breve).
