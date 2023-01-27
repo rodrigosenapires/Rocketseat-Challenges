@@ -2,7 +2,7 @@
 
 <p align="center">
 Desafios gratuitos, promovidos pela Rocketseat para ensino de tecnologias WEB. <br>
-Consulte todos os <a href="https://app.rocketseat.com.br/discover/challenges">desafios.</a><br>
+Consulte todos os <a href="https://app.rocketseat.com.br/discover/challenges">desafios</a> da trilha Discover ou veja os <a href="https://boracodar.dev/?utm_source=youtube&utm_medium=organic&utm_campaign=lead&utm_term=boracodar&utm_content=descricao-boracodar_desafio01#">desafios semanais</a>.<br>
 Confira o <a href="https://app.rocketseat.com.br/discover/challenges">curso gratuito</a>, caso precise de ajuda nas resoluções dos desafios.
 </p>
 
