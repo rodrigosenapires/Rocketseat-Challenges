@@ -40,7 +40,7 @@ O projeto é um formulário de login, responsivo. [Acesse as informações para 
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/SX8XFyC5fAY09ai8Oykz0T/DD-%2F-Login-Form---CSS/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
-## :chart_with_upwards_trend: Evoluindo
+## :chart_with_upwards_trend: Indo além do desafio
 
 - No desafio não temos o layout para a responsividade completa, temos somente para desktop e mobile, inseri para telas com tamanhos intermediários.
 - Inseri validações com JavaScript(Em breve).
